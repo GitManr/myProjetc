@@ -2,18 +2,14 @@ import React, { Component } from 'react';
 import {
   Link
 } from 'react-router-dom';
-
-import Login from '../Login';
-import Index from '../Index';
-
-
-class Home extends React.Component {
+class Login extends React.Component {
   render() {
     return (
       <div>
-        this is Home
+        this is Login!
+        <Link to='/index'>首页</Link>
       </div>
     );
   }
 }
-export default Home;
+export default Login;
