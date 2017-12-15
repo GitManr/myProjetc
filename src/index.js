@@ -6,8 +6,7 @@ import {
   Link,
   Switch
 } from 'react-router-dom';
-import './index.css';
-import App from './App';
+
 import Home from './views/Home';
 import Login from './views/Login';
 import Index from './views/Index';

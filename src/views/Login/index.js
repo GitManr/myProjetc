@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
   Link
 } from 'react-router-dom';
-// import { message, Input, Icon } from 'antd';
+import { message, Input, Icon } from 'antd';
 
 class Login extends React.Component {
   constructor(props) {
@@ -24,7 +24,7 @@ class Login extends React.Component {
       <div  style={{background:'blue'}}>
         this is Login!
         <Link to='/index'>首页</Link>
-
+        <Input />
         this is time {this.state.data}
       </div>
     );

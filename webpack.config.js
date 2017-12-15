@@ -29,12 +29,12 @@ module.exports = {
         }
       }
     ],
-    rules: [
-        {
-            test: '/\.less$/', // 要解析的文件类型
-            use: ['style-loader', 'css-loader', 'less-loader'] // 要使用的loaders，注意顺序
-        }
-    ]
+    // rules: [
+    //     {
+    //         test: '/\.css$/', // 要解析的文件类型
+    //         use: ['style-loader', 'css-loader'] // 要使用的loaders，注意顺序
+    //     }
+    // ]
   },
   // plugins:[new htmlWebpackPlugin({
   //   template:'index.html',
