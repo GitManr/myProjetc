@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import {
   Link
 } from 'react-router-dom';
-import { message, Input, Icon } from 'antd';
-
+// import { message, Input, Icon } from 'antd';
+import styles from './index.less';
+import './index.css';
 class Login extends React.Component {
   constructor(props) {
     super(props);
@@ -19,13 +20,15 @@ class Login extends React.Component {
 
 
   render() {
-
+     console.log('hello world')
     return (
-      <div  style={{background:'blue'}}>
+      <div  className={styles['login-back']}>
         this is Login!
         <Link to='/index'>首页</Link>
-        <Input />
         this is time {this.state.data}
+        <div className={styles['test-div']} className='test-div1'>
+         this is test div
+        </div>
       </div>
     );
   }

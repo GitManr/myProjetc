@@ -13,7 +13,7 @@ import Index from './views/Index';
 import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render(<BrowserRouter >
     <Switch>
-      <Route path="/login" component={Login}/>
+      <Route path="/" component={Login}/>
       <Route path="/index" component={Index}/>
       <Route path="/home" component={Home}/>
     </Switch>
